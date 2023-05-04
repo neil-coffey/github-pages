@@ -1,6 +1,10 @@
 This has been a wild 2 weeks compared to what I was doing previously. Serialization was done, so I was tasked with beginning on the Tripoli GitHub. Since this is a Test-Driven-Development course, I was tasked with working on testing.
 
+After reading some source materials on Test Driven Development, I have been tasked with Unit testing (as opposed to component or integration testing) using Junit in IntelliJ Idea.
+
 For right now, I am looking primarily at the MatLabTest.java file, where there are already tests for all of the MATLAB re-implementations for Tripoli. Although there are already tests, most of them test between 1 and a handful of cases, not including any edge cases. Dr. Bowring wants me to make these tests more robust.
+
+These tests would be considered unit tests because they are testing a single function, which generally is the "smallest unit of testable code".
 
 The first week, I went and added some edge cases to most of the tests, which are cases that may not represent the majority of cases, but must therefore be tested to verify that even in extreme or odd scenarios, the code still works. I was thinking that adding some edge cases would be sufficient, but then just the day before the meeting with Dr. Bowring I realized 2 things:
 

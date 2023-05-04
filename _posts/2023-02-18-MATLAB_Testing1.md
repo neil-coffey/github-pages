@@ -1,5 +1,7 @@
 This has been a wild 2 weeks compared to what I was doing previously. Serialization was done, so I was tasked with beginning on the Tripoli GitHub. Since this is a Test-Driven-Development course, I was tasked with working on testing.
 
+The Test Driven Development flow can be seen at http://www.agiledata.org/essays/tdd.html . You add a test, run the test. If it passes, add a test. If it fails, make a small change, then run the test. If it passes, add a test. If it fails, make a little change.
+
 After reading some source materials on Test Driven Development, I have been tasked with Unit testing (as opposed to component or integration testing) using Junit in IntelliJ Idea.
 
 For right now, I am looking primarily at the MatLabTest.java file, where there are already tests for all of the MATLAB re-implementations for Tripoli. Although there are already tests, most of them test between 1 and a handful of cases, not including any edge cases. Dr. Bowring wants me to make these tests more robust.
